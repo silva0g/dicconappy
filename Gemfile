@@ -38,6 +38,10 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
 # 3° Adicionar o simple_form para gerir a criaçao e validaçao de formularios
 gem 'simple_form', '~> 3.3', '>= 3.3.1' 
+
+# 4° Agora vamos adicionar o gem devise para adicionar usuarios
+gem 'devise', '~> 4.2'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
