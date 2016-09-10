@@ -48,6 +48,10 @@ gem 'paperclip', '~> 5.1'
 # 6° Agora vamos adicionar masonry gem para fazer uma adptaçao responsiva do layout
 gem 'masonry-rails', '~> 0.2.4' 
 
+# 7° Agora vamos adicionar o  gem 'acts_as_votable', '~> 0.10.0' para adicionarmos a capacidade
+# de votaçao num Pin
+gem 'acts_as_votable', '~> 0.10.0'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
