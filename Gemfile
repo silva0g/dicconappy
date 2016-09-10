@@ -45,6 +45,9 @@ gem 'devise', '~> 4.2'
 # 5° Agora vamos adicionar o gem paperclip responsavel pelo upload de imagens
 gem 'paperclip', '~> 5.1'
 
+# 6° Agora vamos adicionar masonry gem para fazer uma adptaçao responsiva do layout
+gem 'masonry-rails', '~> 0.2.4' 
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
