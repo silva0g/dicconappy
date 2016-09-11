@@ -46,6 +46,12 @@ class PinsController < ApplicationController
 		redirect_to :back	
 	end
 
+	def search
+		search = Pin.search params[:tittle]
+		@pins = search.results
+		render 'index'
+	end
+
 	private
 
 	def pin_params
