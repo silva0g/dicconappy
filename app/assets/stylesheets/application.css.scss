@@ -32,7 +32,9 @@
 @import "bootstrap";
 
 body {
-	background: #E9E9E9;
+	/*background: #E9E9E9;*/
+	background: #FFFFFF;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -52,8 +54,16 @@ nav {
 	}
 }
 
+.container{
+	background-color: #FFFFFF;
+}
+#nav.navbar.navbar-default{
+	background-color: #FFFFFF;
+}
+
 #pins {
-  margin: 0 auto;
+ 	margin-left:150px;
+  /*margin: 150 auto;*/
   width: 100%;
   .box {
 	  margin: 10px;
