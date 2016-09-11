@@ -9,9 +9,6 @@
 	%nav.navbar.navbar-default
 		.container
 			.navabar-brand= link_to image_tag("logos/logo.png", width: "100px"), root_path
-			.navbar-form.navbar-left.navbar-block = form_tag pins_path, :method =>'get' do
-			= text_field_tag :search, params[:search]
-			= submit_tag "Rechercher"
 
 			- if user_signed_in?
 				%ul.nav.navbar-nav.navbar-right

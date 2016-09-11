@@ -52,12 +52,19 @@ gem 'masonry-rails', '~> 0.2.4'
 # de votaçao num Pin
 gem 'acts_as_votable', '~> 0.10.0'
 
+# Vou adicioar este gem para colocar uma search bar na aplicaçao
+gem 'sunspot', '~> 2.2', '>= 2.2.6'
+#gem 'sunspot_solr' # optional pre-packaged Solr distribution for use in development
+#gem 'sunspot_solr', '~> 2.2', '>= 2.2.6'
+#Vou lhe meter aqui na fase de desenvolvimento
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   gem 'sqlite3' #Vou lhe meter aqui
 end
 
+# Comentar antes da passagem à fase de produçao
 group :production do
 	gem 'rails_12factor'
 	gem 'pg'
